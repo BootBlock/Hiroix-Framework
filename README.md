@@ -33,7 +33,7 @@ public class AppSettings : SerializableObject
 Once both classes are created, they can be plumbed in and HF can be instantiated using something similar to the following:
 
 ```csharp
-public readonly static WindowsFramework<AppPaths, Settings.AppSettings> App = new();
+internal readonly static WindowsFramework<AppPaths, Settings.AppSettings> App = new();
 ```
 
 At this point, any configuration can be performed as you require, and then `App.Initialize()` is called. This initialises the entire HF system and performs the steps required to get your application set up. After this, you would pass in your application's main form via `App.Run()` to begin running it.
