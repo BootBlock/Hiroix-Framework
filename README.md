@@ -14,8 +14,8 @@ public class AppPaths : Paths
 {
   public FileRef MyFile => this.DataDirectory + "MyFile.json";
 
-  // The UserVisible() attribute can be omitted; with it, it makes
-  // the link auto-appear in appropriate sections of your applications.
+  // The UserVisible() attribute can be omitted; with it, the link
+  // will auto-appear in appropriate sections of your applications.
   [UserVisible("Website", "Hiroix Website", "Visit the Hiroix website...")]
   public UrlRef WebsiteUrl => "https://hiroix.com/";
 }
