@@ -28,7 +28,7 @@ This class derives from `SerializableObject` and contains your application's set
 public class AppSettings : SerializableObject
 {
   // Any properties are automatically (de)serialised on app start/shutdown.
-  public StartupSettings Startup { get; init; } = new StartupSettings();
+  public StartupSettings Startup { get; init; } = new();
 }
 ```
 
