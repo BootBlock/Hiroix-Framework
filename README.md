@@ -22,7 +22,7 @@ public class AppPaths : Paths
 ```
 
 ### AppSettings
-This class derives from `SerializableObject` and contains your application's settings which are accessible via `App.Settings`. The settings are loaded at application start-up and saved at shutdown; a save can be requested at any time via `App.Settings.Save()`.
+This class derives from `SerializableObject` and contains your application's settings which are accessible via `App.Settings`. The settings are loaded at application start-up and saved at shutdown; a save can be requested at any time via `AppSettings.Save()` (eg. `App.Settings.Save()`).
 
 ```csharp
 public class AppSettings : SerializableObject
