@@ -1,5 +1,5 @@
 # HiroixFramework
-The Hiroix Framework is an application framework that was created to reduce boilerplate code and add common features to console and WinForms applications (MAUI support may be coming in the future). Hiroix Framework runs on [.NET 5](https://devblogs.microsoft.com/dotnet/announcing-net-5-0) and is written in C#.
+The Hiroix Framework is an application framework that was created to reduce boilerplate code and add common features to console and WinForms applications (MAUI support may be coming in the future). Hiroix Framework runs on [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6) and is written in C#.
 
 Hiroix Framework ("HF") is constantly evolving as it is being used and is based upon over 40 years of combined application development experience of the two main authors.
 
